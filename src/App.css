@@ -14,13 +14,14 @@ header {
   grid-template-columns: 2;
 }
 header .logo {
-  width: 160px;
+  width: 125px;
   grid-column: 1;
 }
 header .logo-text {
   grid-column: 2;
 }
 header .logo-text h1 {
+  font-family: 'Manrope', sans-serif;
   font-size: 2.4em;
   color: #0081c6;
   margin: 0;
