@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './Status.css';
 
-const Status = () => {
+export default function Status() {
 
     // eslint-disable-next-line
     const [status, setStatus] = new useState(null);
-    const [services, setServices] = new useState([]);
 
     useEffect(() => {
         async function fetchStatus() {
@@ -47,5 +46,3 @@ const Status = () => {
         )
     )
 }
-
-export default Status;
