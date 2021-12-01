@@ -9,7 +9,7 @@ export default function Status() {
     useEffect(() => {
         async function fetchStatus() {
             // eslint-disable-next-line
-            const apiURL="https://cbg-api.pewtech.de/api/v1/status";
+            const apiURL="https://api.carl-benz-gaming.de/api/v1/status";
             try {
                 let data;
                 await fetch(apiURL).then(async response => {data = await response.json()});
